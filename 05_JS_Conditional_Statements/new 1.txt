@@ -1,0 +1,75 @@
+instead of creating individual variable we can group all the individual
+into bo=igger variable into object .
+An ovject is a variable which contains similar kind of data with respective to its properties .
+we will object in js as follows:
+
+var emp = {};
+
+we can add properties to an object is as follows :
+emp.name = 'john';
+emp.age =40;
+emp.sal=40000;
+
+in the abobe example we have created empty object and properties to empty objectj
+
+we can create object with all the properties as follows 
+
+var student={
+name = 'john',
+age = 30,
+sal = 40000
+
+} 
+
+we can access the value of an object ads follows .
+
+
+console.log(student.name);
+
+we can accwss properties of an object using brac notation asd follows .
+
+console.log(student['name']);
+
+if you are trying to access property wich not exist in the object then we get the value undefined.
+
+each object may conden some other objectd as well thid inside object called as nested object.
+
+
+
+
+an araray is an indecx collection of varioud type of element we can create element in js as follows .
+var array =[10,20,30];
+ 
+ to access individual element is ads follows :
+ arrayname[index];
+ 
+ to js array contain the predefined function .
+ array.reverse();
+ this function reverse the array.
+ 
+ array.shift():
+ rompve forst element
+ 
+ array.unshift(100):
+ 
+ 
+ array.pop():
+ pop lazt element
+ 
+ array.push(100):
+ this function add 100m lement at end of array 
+ 
+ array.slice():
+ it creates an new copy of array.
+ 
+ array.splice(index):
+	it will remove all the eleents form index mentioned.
+ array.splice(index,no of ele):
+	it will remmoves the num of element from index given .
+ array.splice(index,1,replace ele):
+	it will replace the element at spacific index location.
+ 
+ 
+ in the js array it contains the following types of parameter .
+ 
+ 
