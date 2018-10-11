@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+}
+header,footer{
+    background-color: lemonchiffon;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    color: green;
+    text-shadow: 2px 2px black;
+    background-size: cover;
+    text-transform: capitalize;
+
+}
+.mainsection{
+   text-align: center;
+    padding: 50px;
+}
+.maindiv{
+    background-color: lightcoral;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+input[type='number']{
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    color: red;
+}
+::placeholder{
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+#string{
+    background-color: lightpink;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: black;
+}
